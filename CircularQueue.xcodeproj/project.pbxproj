@@ -10,6 +10,9 @@
 		AF231B69194215A400CF4410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF231B68194215A400CF4410 /* AppDelegate.swift */; };
 		AF231B6B194215A400CF4410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF231B6A194215A400CF4410 /* Images.xcassets */; };
 		AF231B77194215A400CF4410 /* CircularQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF231B76194215A400CF4410 /* CircularQueueTests.swift */; };
+		AF231B81194215B500CF4410 /* CircularQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF231B80194215B500CF4410 /* CircularQueue.swift */; };
+		AF231B8419421F7E00CF4410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF231B8219421F7E00CF4410 /* ViewController.swift */; };
+		AF231B8519421F7E00CF4410 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF231B8319421F7E00CF4410 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,9 @@
 		AF231B70194215A400CF4410 /* CircularQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF231B75194215A400CF4410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF231B76194215A400CF4410 /* CircularQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularQueueTests.swift; sourceTree = "<group>"; };
+		AF231B80194215B500CF4410 /* CircularQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularQueue.swift; sourceTree = "<group>"; };
+		AF231B8219421F7E00CF4410 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF231B8319421F7E00CF4410 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 				AF231B68194215A400CF4410 /* AppDelegate.swift */,
 				AF231B6A194215A400CF4410 /* Images.xcassets */,
 				AF231B66194215A400CF4410 /* Supporting Files */,
+				AF231B80194215B500CF4410 /* CircularQueue.swift */,
+				AF231B8219421F7E00CF4410 /* ViewController.swift */,
+				AF231B8319421F7E00CF4410 /* ViewController.xib */,
 			);
 			path = CircularQueue;
 			sourceTree = "<group>";
@@ -182,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF231B8519421F7E00CF4410 /* ViewController.xib in Resources */,
 				AF231B6B194215A400CF4410 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF231B8419421F7E00CF4410 /* ViewController.swift in Sources */,
+				AF231B81194215B500CF4410 /* CircularQueue.swift in Sources */,
 				AF231B69194215A400CF4410 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
