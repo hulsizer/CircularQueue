@@ -10,8 +10,8 @@ import Foundation
 
 struct CircularQueue<T> {
     
+    let bufferSize: Int
     var buffer: Dictionary<Int, T>
-    var bufferSize: Int
     var currentIndex: Int
     var oldestIndex: Int
     
